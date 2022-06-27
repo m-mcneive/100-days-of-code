@@ -1,26 +1,72 @@
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: white;
+  color: white;
+  margin: 0;
+  height:500px;
+  padding: 0;
+
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 300px;
+    margin: 0;
+    width: auto;
+}
+
+.grid-item {
+    padding: 75px;
+}
+
+
+#grid-header {
+    background-color: rgb(175, 207, 229);
+    grid-column: 1/-1;
     text-align: center;
-    font-size: 48pt;
-    background-color: rgb(23,23,23);
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40pt;
-    padding-left: 220pt;
-    padding-right: 220pt;
-    border-radius: 10pt;
 }
 
-p{
-    font-size: large;
+h1 {
+    font-size: 64pt;
 }
 
-ul{
-
+#middle {
+    background-color: rgb(230, 117, 113);
+    padding-top: 10px;
+    font-size: 18pt;
+    text-align: center;
 }
 
-body{
-    background-color: black;
-    color: white;
+.list-header {
+    margin: 20px, 0;
+    text-decoration: underline;
+    font-size: 20pt;
+}
+
+ul {
+    margin: 10px;
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    margin: 15px 0;
+    
+}
+
+#upper {
+    background-color: rgb(38, 50, 91);
+    font-size: 24pt;
+    padding: 7%;
+}
+
+#lower {
+    background-color: rgb(231, 219, 147);
+    font-size: 18pt;
+    padding: 7%;
+}
+
+footer {
+    background-color: rgb(57, 72, 129);
+    width: 100%;
 }
